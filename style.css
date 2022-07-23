@@ -1,0 +1,633 @@
+:before, :after {
+    content: '';
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    background: #182b3d;
+  }
+  #car6part1 {
+    width: 360px;
+    height: 80px;
+    -webkit-border-radius: 100% 0 0 20%;
+    -moz-border-radius: 100% 0 0 20%;
+    -ms-border-radius: 100% 0 0 20%;
+    -o-border-radius: 100% 0 0 20%;
+    border-radius: 100% 0 0 20%;
+    border-top: 2px solid yellow;
+    border-bottom: 60px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 0px solid transparent;
+    -webkit-transform: rotate(23deg);
+    -moz-transform: rotate(23deg);
+    -ms-transform: rotate(23deg);
+    -o-transform: rotate(23deg);
+    transform: rotate(23deg);
+  }
+  #car6part2 {
+    width: 220px;
+    height: 60px;
+    -webkit-border-radius: 100% 0 0 20%;
+    -moz-border-radius: 100% 0 0 20%;
+    -ms-border-radius: 100% 0 0 20%;
+    -o-border-radius: 100% 0 0 20%;
+    border-radius: 100% 0 0 20%;
+    border-top: 2px solid yellow;
+    border-bottom: 58px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 0px solid transparent;
+    -webkit-transform: rotate(22deg);
+    -moz-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+    -o-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+  #car6part3 {
+    width: 100px;
+    border-top: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-34deg);
+    -moz-transform: rotate(-34deg);
+    -ms-transform: rotate(-34deg);
+    -o-transform: rotate(-34deg);
+    transform: rotate(-34deg);
+  }
+  #car6part4 {
+    width: 90px;
+    border-top: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-34deg);
+    -moz-transform: rotate(-34deg);
+    -ms-transform: rotate(-34deg);
+    -o-transform: rotate(-34deg);
+    transform: rotate(-34deg);
+  }
+  #car6part5 {
+    width: 270px;
+    height: 10px;
+    -webkit-border-radius: 50% 0 0 0;
+    -moz-border-radius: 50% 0 0 0;
+    -ms-border-radius: 50% 0 0 0;
+    -o-border-radius: 50% 0 0 0;
+    border-radius: 50% 0 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 8px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(177deg);
+    -moz-transform: rotate(177deg);
+    -ms-transform: rotate(177deg);
+    -o-transform: rotate(177deg);
+    transform: rotate(177deg);
+  }
+  #car6part6 {
+    width: 170px;
+    height: 58px;
+    -webkit-border-radius: 50% 0 0 0;
+    -moz-border-radius: 50% 0 0 0;
+    -ms-border-radius: 50% 0 0 0;
+    -o-border-radius: 50% 0 0 0;
+    border-radius: 50% 0 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 58px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 2px solid transparent;
+  }
+  #car6part7 {
+    width: 70px;
+    height: 10px;
+    -webkit-border-radius: 50% 50% 0 0;
+    -moz-border-radius: 50% 50% 0 0;
+    -ms-border-radius: 50% 50% 0 0;
+    -o-border-radius: 50% 50% 0 0;
+    border-radius: 50% 50% 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 10px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(-210deg);
+    -moz-transform: rotate(-210deg);
+    -ms-transform: rotate(-210deg);
+    -o-transform: rotate(-210deg);
+    transform: rotate(-210deg);
+  }
+  #car6part8 {
+    width: 80px;
+    height: 10px;
+    -webkit-border-radius: 50% 50% 0 0;
+    -moz-border-radius: 50% 50% 0 0;
+    -ms-border-radius: 50% 50% 0 0;
+    -o-border-radius: 50% 50% 0 0;
+    border-radius: 50% 50% 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 10px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+  #car6part9 {
+    width: 30px;
+    height: 50px;
+    -webkit-border-radius: 50% 0 0 0;
+    -moz-border-radius: 50% 0 0 0;
+    -ms-border-radius: 50% 0 0 0;
+    -o-border-radius: 50% 0 0 0;
+    border-radius: 50% 0 0 0;
+    border-left: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-right: 30px solid transparent;
+  }
+  #car6part10 {
+    width: 80px;
+    height: 95px;
+    -webkit-border-radius: 40% 0 0 0;
+    -moz-border-radius: 40% 0 0 0;
+    -ms-border-radius: 40% 0 0 0;
+    -o-border-radius: 40% 0 0 0;
+    border-radius: 40% 0 0 0;
+    border-left: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-right: 80px solid transparent;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  #car6part11 {
+    width: 50px;
+    height: 10px;
+    -webkit-border-radius: 0 80% 0 0;
+    -moz-border-radius: 0 80% 0 0;
+    -ms-border-radius: 0 80% 0 0;
+    -o-border-radius: 0 80% 0 0;
+    border-radius: 0 80% 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 10px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-12deg);
+  }
+  #car6part12 {
+    width: 50px;
+    height: 10px;
+    -webkit-border-radius: 0 80% 0 0;
+    -moz-border-radius: 0 80% 0 0;
+    -ms-border-radius: 0 80% 0 0;
+    -o-border-radius: 0 80% 0 0;
+    border-radius: 0 80% 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 10px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-185deg);
+    -moz-transform: rotate(-185deg);
+    -ms-transform: rotate(-185deg);
+    -o-transform: rotate(-185deg);
+    transform: rotate(-185deg);
+  }
+  #car6part13 {
+    width: 200px;
+    height: 4px;
+    border-top: 3px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+  }
+  #car6part14 {
+    width: 160px;
+    height: 4px;
+    border-top: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+  #car6part15 {
+    width: 120px;
+    height: 50px;
+    -webkit-border-radius: 60% 40% 0 0;
+    -moz-border-radius: 60% 40% 0 0;
+    -ms-border-radius: 60% 40% 0 0;
+    -o-border-radius: 60% 40% 0 0;
+    border-radius: 60% 40% 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 10px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(130deg);
+    -moz-transform: rotate(130deg);
+    -ms-transform: rotate(130deg);
+    -o-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+  #car6part16 {
+    width: 30px;
+    height: 12px;
+    -webkit-border-radius: 90% 0% 0 0;
+    -moz-border-radius: 90% 0% 0 0;
+    -ms-border-radius: 90% 0% 0 0;
+    -o-border-radius: 90% 0% 0 0;
+    border-radius: 90% 0% 0 0;
+    border: 2px solid yellow;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  #car6part17 {
+    width: 20px;
+    height: 5px;
+    -webkit-border-radius: 90% 0% 0 0;
+    -moz-border-radius: 90% 0% 0 0;
+    -ms-border-radius: 90% 0% 0 0;
+    -o-border-radius: 90% 0% 0 0;
+    border-radius: 90% 0% 0 0;
+    border: 1px solid yellow;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  #car6part18 {
+    width: 2px;
+    height: 20px;
+    border-left: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+  }
+  #car6part19 {
+    width: 10px;
+    height: 5px;
+    -webkit-border-radius: 90% 0% 0 0;
+    -moz-border-radius: 90% 0% 0 0;
+    -ms-border-radius: 90% 0% 0 0;
+    -o-border-radius: 90% 0% 0 0;
+    border-radius: 90% 80% 0 0;
+    border-top: 1px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid yellow;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  #car6part20 {
+    width: 20px;
+    height: 5px;
+    -webkit-border-radius: 90% 0% 0 0;
+    -moz-border-radius: 90% 0% 0 0;
+    -ms-border-radius: 90% 0% 0 0;
+    -o-border-radius: 90% 0% 0 0;
+    border-radius: 90% 50% 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-left: 4px solid yellow;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  #car6part21 {
+    width: 85px;
+    height: 12px;
+    -webkit-border-radius: 60% 50% 0 0;
+    -moz-border-radius: 60% 50% 0 0;
+    -ms-border-radius: 60% 50% 0 0;
+    -o-border-radius: 60% 50% 0 0;
+    border-radius: 60% 50% 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 12px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(128deg);
+    -moz-transform: rotate(128deg);
+    -ms-transform: rotate(128deg);
+    -o-transform: rotate(128deg);
+    transform: rotate(128deg);
+  }
+  #car6part22 {
+    width: 155px;
+    height: 6px;
+    border-top: 1px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(0.5deg);
+    -moz-transform: rotate(0.5deg);
+    -ms-transform: rotate(0.5deg);
+    -o-transform: rotate(0.5deg);
+    transform: rotate(0.5deg);
+  }
+  #car6part23 {
+    width: 50px;
+    height: 22px;
+    -webkit-border-radius: 30% 0 0 0;
+    -moz-border-radius: 30% 0 0 0;
+    -ms-border-radius: 30% 0 0 0;
+    -o-border-radius: 30% 0 0 0;
+    border-radius: 30% 0 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 22px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  #car6part24 {
+    width: 50px;
+    height: 22px;
+    border-top: 2px solid yellow;
+    border-bottom: 22px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  #car6part26 {
+    width: 10px;
+    height: 18px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid yellow;
+    border-right: 1px solid yellow;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  #car6part29 {
+    width: 26px;
+    height: 4px;
+    -webkit-border-radius: 0 0 50% 50%;
+    -moz-border-radius: 0 0 50% 50%;
+    -ms-border-radius: 0 0 50% 50%;
+    -o-border-radius: 0 0 50% 50%;
+    border-radius: 0 0 50% 50%;
+    border: 2px solid yellow;
+    border-top: 1px solid yellow;
+  }
+  #car6part30 {
+    width: 26px;
+    height: 4px;
+    -webkit-border-radius: 50% 50% 0 0;
+    -moz-border-radius: 50% 50% 0 0;
+    -ms-border-radius: 50% 50% 0 0;
+    -o-border-radius: 50% 50% 0 0;
+    border-radius: 50% 50% 0 0;
+    border: 2px solid yellow;
+    border-bottom: 1px solid yellow;
+  }
+  #car6part31 {
+    -webkit-border-radius: 0 0 100px 0;
+    -moz-border-radius: 0 0 100px 0;
+    -ms-border-radius: 0 0 100px 0;
+    -o-border-radius: 0 0 100px 0;
+    border-radius: 0 0 100px 0;
+    border: 2px solid yellow;
+    width: 86px;
+    height: 40px;
+    border-top: 2px solid transparent;
+    border-left: 0px solid transparent;
+  }
+  #car6part32 {
+    width: 50px;
+    height: 15px;
+    -webkit-border-radius:  0 30% 0 50%;
+    -moz-border-radius:  0 30% 0 50%;
+    -ms-border-radius:  0 30% 0 50%;
+    -o-border-radius:  0 30% 0 50%;
+    border-radius: 0 30% 0 50%;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid yellow;
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+  #car6part33 {
+    width: 5px;
+    height: 16px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid yellow;
+    -webkit-transform: rotate(24deg);
+    -moz-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
+    -o-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+  #car6part34 {
+    width: 75px;
+    height: 10px;
+    -webkit-border-radius: 30% 0 0 0;
+    -moz-border-radius: 30% 0 0 0;
+    -ms-border-radius: 30% 0 0 0;
+    -o-border-radius: 30% 0 0 0;
+    border-radius: 30% 0 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid yellow;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  #car6part35 {
+    width: 30px;
+    height: 15px;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid yellow;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  #car6part36 {
+    width: 30px;
+    height: 15px;
+    border-top: 1px solid transparent;
+    border-bottom: 2px solid yellow;
+    border-left: 1px solid transparent;
+    border-right: 2px solid yellow;
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+  #car6part37 {
+    width: 10px;
+    height: 30px;
+    -webkit-border-radius: 50% 0 0 0;
+    -moz-border-radius: 50% 0 0 0;
+    -ms-border-radius: 50% 0 0 0;
+    -o-border-radius: 50% 0 0 0;
+    border-radius: 50% 0 0 0;
+    border-top: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+    border-left: 2px solid yellow;
+    border-right: 1px solid transparent;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  #car6part38 {
+    width: 55px;
+    height: 10px;
+    -webkit-border-radius: 0 0 0 100px;
+    -moz-border-radius: 0 0 0 100px;
+    -ms-border-radius: 0 0 0 100px;
+    -o-border-radius: 0 0 0 100px;
+    border-radius: 0 0 0 100px;
+    border: 1px solid yellow;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  #car6part39 {
+    width: 8px;
+    height: 20px;
+    -webkit-border-radius: 0 0 20px 0;
+    -moz-border-radius: 0 0 20px 0;
+    -ms-border-radius: 0 0 20px 0;
+    -o-border-radius: 0 0 20px 0;
+    border-radius: 0 0 20px 0;
+    border: 1px solid yellow;
+    border-left: 1px solid transparent;
+  }
+  #arch {
+    width: 110px;
+    height: 80px;
+    -webkit-border-radius: 100px 100px 0 0;
+    -moz-border-radius: 100px 100px 0 0;
+    -ms-border-radius: 100px 100px 0 0;
+    -o-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+    border: 2px solid yellow;
+    border-bottom: 1px solid transparent;
+  }
+  #tyre1 {
+    width: 90px;
+    height: 90px;
+    background: #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid red;
+  }
+  #wheel1 {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid red;
+  }
+  #wheel1:after {
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid red;
+   box-shadow: 15px 0px 0px -2px rgba(255, 255, 255, 1), 
+    -15px 0px 0 -2px rgba(255, 255, 255, 1),
+    0px -15px 0 -2px rgba(255, 255, 255, 1),
+    0px 15px 0 -2px rgba(255, 255, 255, 1),
+    -10px -10px 0 2px rgba(255, 0, 0, 0.6),
+    -10px 10px 0 2px rgba(255, 0, 0, 0.6),
+    10px -10px 0 2px rgba(255, 0, 0, 0.6),
+    10px 10px 0 2px rgba(255, 0, 0, 0.6),
+    -10px -10px 0 -4px rgba(255, 255, 255, 1), 
+    10px 10px 0 -4px rgba(255, 255, 255, 1),
+    -10px 10px 0 -4px rgba(255, 255, 255, 1), 
+    10px -10px 0 -4px rgba(255, 255, 255, 1);
+    animation: spin_left 6s ease-in-out infinite;
+  }
+  .stage {
+    position: relative;
+    top:10px;
+    animation-name: slide;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  @keyframes spin_left {
+    100% {transform: rotate(-360deg);}
+  }
+  
